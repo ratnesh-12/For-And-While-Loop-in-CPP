@@ -35,3 +35,9 @@ int main() {
 
     return 0;
 }
+
+OUTPUT: 
+
+Enter password: @345
+Invalid password
+=== Code Execution Successful ===
