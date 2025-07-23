@@ -20,7 +20,7 @@ In this program, the while loop is used to repeat the prompt until the correct p
 # Algorithm:
 Start the program.
 
-Set the correct password (e.g., "@123").
+Set the correct password (e.g., "@619").
 
 Ask the user to enter a password.
 
