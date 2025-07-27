@@ -67,13 +67,3 @@ End the program.
 
 # Conclusion:
 We printed even numbers in a range using the for loop. It helped us practice using conditions with loops.
-
-# 5. Program: Nested for loop to print Right Side Inverted Pyramid
-# Aim:
-To write a C++ program that prints a right side inverted pyramid using nested for loops.
-
-# Theory:
-Nested loops are loops inside loops. We use one loop to handle rows and another to handle spaces or stars in each row. By adjusting the number of spaces and stars, we can make a pyramid pattern.
-
-# Conclusion:
-We used nested for loops to print a star pattern. It helped us learn how multiple loops can work together to make shapes or patterns.
