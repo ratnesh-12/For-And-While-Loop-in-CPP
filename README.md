@@ -67,3 +67,16 @@ End the program.
 
 # Conclusion:
 We printed even numbers in a range using the for loop. It helped us practice using conditions with loops.
+
+# 5. Program: Nested for loop stars pyramid
+# Aim: 
+To write a C++ program using nested for loops to print a star pattern.
+
+# Theory:
+Nested for loops are used in C++ when one loop runs inside another. This structure is especially useful for pattern printing tasks where output is organized in rows and columns.
+In a typical star pattern:
+The outer loop determines the number of rows.
+The inner loop controls how many stars (*) are printed in each row.
+
+# Conclusion:
+We used nested for loops to print a star pattern. This helped us understand how multiple loops interact and how to structure output in a patterned format.
