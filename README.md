@@ -20,6 +20,7 @@ In this program, the while loop is used to repeat the prompt until the correct p
 # Algorithm:
 Start the program.
 
+
 Set the correct password (e.g., "@619").
 
 Ask the user to enter a password.
@@ -90,19 +91,33 @@ ii) The second for loop prints the lower triangle.
 Spacing is handled using nested loops to align the stars properly.
 # ALGORITHM:
 1> Start
+
 2> Declare variables:
+
 i, j, k (int) – loop counters
+
 n = 5 – controls the size of the pattern
+
 3> First Half (Upper Inverted Triangle):
+
 Loop i from 1 to n - 1
+
 Loop j from -1 to i - 1 → print space (" ")
+
 Loop k from 1 to n - i + 1 → print "* "
+
 Print newline
+
 4> Second Half (Lower Triangle):
+
 Loop i from n down to 1
+
 Loop j from 1 to i + 1 → print space (" ")
+
 Loop k from 1 to n - i + 1 → print "* "
+
 Print newline
+
 5> End
 # Conclusion:
 Looping constructs in C++ simplify tasks that require repeated execution of code. Each loop type has its ideal use case depending on whether the number of repetitions is known, unknown, or requires guaranteed execution.
@@ -114,13 +129,49 @@ Program to print a triangle pattern of consecutive numbers starting from 1.
 It uses nested for loops: the outer loop controls the number of rows, and the inner loop prints the numbers while incrementing a counter variable after each print.
 # ALGORITHM:
 1> Start
+
 2> Declare variables:
+
 num (int) = 1 – to hold the current number to print
+
 rows (int) = 4 – total number of rows in the pattern
+
 3> Use outer loop from i = 1 to rows
+
 Controls the number of lines
+
 4> Use inner loop from j = 1 to i
+
 Print num followed by space
+
 Increment num by 1 after each print
+
 5> After inner loop, print newline (endl) to move to next row
+
+6> End
+
+# 8. Program: Continuous Alphabet Pyramid
+# Aim & Theory: This program prints a pattern of increasing capital alphabets in a triangle format using nested for loops. The outer loop controls the number of rows, and the inner loop prints the characters. The character ch starts from 'A' and increments after each print, producing a sequential alphabet pattern.
+
+# ALGORITHM:
+
+1> Start
+
+2> Declare variables:
+
+ch (char) = 'A' – to hold the current alphabet
+
+rows (int) = 4 – total number of rows to print
+
+3> Use outer loop from i = 1 to rows
+
+Controls number of lines
+4> Use inner loop from j = 1 to i
+
+Print current character ch
+
+Increment ch after each print
+
+5> After inner loop, print newline (endl) to move to next row
+
 6> End
