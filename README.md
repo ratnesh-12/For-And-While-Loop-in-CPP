@@ -151,7 +151,8 @@ Increment num by 1 after each print
 6> End
 
 # 8. Program: Continuous Alphabet Pyramid
-# Aim & Theory: This program prints a pattern of increasing capital alphabets in a triangle format using nested for loops. The outer loop controls the number of rows, and the inner loop prints the characters. The character ch starts from 'A' and increments after each print, producing a sequential alphabet pattern.
+# Aim & Theory:
+This program prints a pattern of increasing capital alphabets in a triangle format using nested for loops. The outer loop controls the number of rows, and the inner loop prints the characters. The character ch starts from 'A' and increments after each print, producing a sequential alphabet pattern.
 
 # ALGORITHM:
 
