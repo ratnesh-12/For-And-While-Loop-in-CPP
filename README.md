@@ -106,3 +106,21 @@ Print newline
 5> End
 # Conclusion:
 Looping constructs in C++ simplify tasks that require repeated execution of code. Each loop type has its ideal use case depending on whether the number of repetitions is known, unknown, or requires guaranteed execution.
+
+# 7. Program: Flyod's Series
+# Aim:
+Program to print a triangle pattern of consecutive numbers starting from 1. 
+# Theory:
+It uses nested for loops: the outer loop controls the number of rows, and the inner loop prints the numbers while incrementing a counter variable after each print.
+# ALGORITHM:
+1> Start
+2> Declare variables:
+num (int) = 1 – to hold the current number to print
+rows (int) = 4 – total number of rows in the pattern
+3> Use outer loop from i = 1 to rows
+Controls the number of lines
+4> Use inner loop from j = 1 to i
+Print num followed by space
+Increment num by 1 after each print
+5> After inner loop, print newline (endl) to move to next row
+6> End
