@@ -80,3 +80,29 @@ The inner loop controls how many stars (*) are printed in each row.
 
 # Conclusion:
 We used nested for loops to print a star pattern. This helped us understand how multiple loops interact and how to structure output in a patterned format.
+
+# 6. Program:Hourglass Star Pattern
+# Aim: This program prints a symmetric hourglass pattern using stars (*). 
+# Theory:
+It is divided into two parts:
+i) The first for loop creates the upper inverted triangle.
+ii) The second for loop prints the lower triangle.
+Spacing is handled using nested loops to align the stars properly.
+# ALGORITHM:
+1> Start
+2> Declare variables:
+i, j, k (int) – loop counters
+n = 5 – controls the size of the pattern
+3> First Half (Upper Inverted Triangle):
+Loop i from 1 to n - 1
+Loop j from -1 to i - 1 → print space (" ")
+Loop k from 1 to n - i + 1 → print "* "
+Print newline
+4> Second Half (Lower Triangle):
+Loop i from n down to 1
+Loop j from 1 to i + 1 → print space (" ")
+Loop k from 1 to n - i + 1 → print "* "
+Print newline
+5> End
+# Conclusion:
+Looping constructs in C++ simplify tasks that require repeated execution of code. Each loop type has its ideal use case depending on whether the number of repetitions is known, unknown, or requires guaranteed execution.
